@@ -1,0 +1,21 @@
+{
+	"variant": [
+		{
+			"name": "Berserker Axe",
+			"source": "DMG",
+			"effects": [
+				{
+					"name": "HP Increase",
+					"changes": [
+						{
+							"key": "data.attributes.hp.max",
+							"mode": "ADD",
+							"value": "@details.level"
+						}
+					]
+				}
+			]
+		}
+	],
+	"item": []
+}
